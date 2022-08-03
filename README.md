@@ -1,4 +1,4 @@
-@artprog/gulp-sass-glob-import
+@artprog/gulp-sass-glob
 =====================
 
 gulp task to allow importing directories in your SCSS.
@@ -9,7 +9,7 @@ Different from [gulp-sass-glob-import](https://github.com/bleuarg/gulp-sass-glob
 ## installation
 
 ```
-npm install --save-dev @artprog/gulp-sass-glob-import
+npm install --save-dev @artprog/gulp-sass-glob
 ```
 
 
@@ -30,7 +30,7 @@ npm install --save-dev @artprog/gulp-sass-glob-import
 const
     gulp = require('gulp'),
     sass = require('gulp-sass')(require('sass')),
-    sassGlob = require('gulp-sass-glob');
+    sassGlob = require('@artprog/gulp-sass-glob');
 
 const compileSass = () => {
     return gulp.src([
