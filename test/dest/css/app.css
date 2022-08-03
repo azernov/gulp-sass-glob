@@ -1,0 +1,55 @@
+/*******************************************************
+ * This part must be first with .button description
+ *******************************************************/
+.button {
+  border-radius: 5px;
+}
+
+/*******************************************************
+ * This part must be after .button description
+ *******************************************************/
+.button.button_size_xs {
+  font-size: 12px;
+}
+
+/*******************************************************
+ * This part must be after .button description
+ *******************************************************/
+.button.button_size_xs {
+  font-size: 8px;
+}
+
+/*******************************************************
+ * This part must be after .button description
+ *******************************************************/
+.button.button_size_xs {
+  font-size: 10px;
+}
+
+/*******************************************************
+ * This part must be first with .z-block description
+ *******************************************************/
+.z-block {
+  border-radius: 5px;
+}
+
+/*******************************************************
+ * This part must be after .z-block description
+ *******************************************************/
+.z-block.z-block_size_xs {
+  font-size: 12px;
+}
+
+/*******************************************************
+ * This part must be after .z-block description
+ *******************************************************/
+.z-block.z-block_size_xs {
+  font-size: 8px;
+}
+
+/*******************************************************
+ * This part must be after .z-block description
+ *******************************************************/
+.z-block.z-block_size_xs {
+  font-size: 10px;
+}
